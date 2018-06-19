@@ -17,13 +17,13 @@ router.get('/',async function(ctx,next){
         const _debit = ctx.request.headers.debit || ctx.request.query.debit || 0
 
         let options = {
-            uri: hyperledgerServerUrl+"/Login",
+            uri: hyperledgerServerUrl+"/createTransaction",
             qs: {
                 COOKIE_KEY: _ck,
                 S_ID: _sid,
                 CREDIT: _credit,
                 DEBIT: _debit,
-                CONTENT: ""
+                CONTENT: "Create"
             },
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
@@ -31,12 +31,14 @@ router.get('/',async function(ctx,next){
             },
             json: true 
         };
-        
+        console.log(options)
 
         let result = await requestPN(options);
         ctx.status = 200;
+        console.log(result)
         ctx.body = result;
     } catch (e) {
+        console.log(e);
         ctx.status = 400;
         ctx.body = "error";
     }

@@ -96,7 +96,7 @@
             //     title: '帳號或密碼輸入錯誤'
             // })
         
-            $.get("http://localhost:3000/members?ck="+_ck +"&sid="+_subject+"&credit="+_credit+"&debit="+_debit)
+            $.get("http://localhost:3000/writes?ck="+_ck +"&sid="+_subject+"&credit="+_credit+"&debit="+_debit)
                 .done(function(result) {
                     console.log(result);
                     
