@@ -1,0 +1,17 @@
+{"status":"0","data":"[{\"CONTENT\":\"\",\"CREATED_ON_DATE\":\"12\",\"CREATED_ON_MONTH\":\"5\",\"CREATED_ON_YEAR\":\"2018\",\"CREDIT\":10,\"DEBIT\":100,\"MEMBERCODE\":\"0\",\"S_ID\":\"87\",\"TxNumber\":\"1\",\"docType\":\"TRANSACTION\"},{\"CONTENT\":\"\",\"CREATED_ON_DATE\":\"12\",\"CREATED_ON_MONTH\":\"5\",\"CREATED_ON_YEAR\":\"2018\",\"CREDIT\":10,\"DEBIT\":100,\"MEMBERCODE\":\"0\",\"S_ID\":\"87\",\"TxNumber\":\"2\",\"docType\":\"TRANSACTION\"},{\"CONTENT\":\"\",\"CREATED_ON_DATE\":\"12\",\"CREATED_ON_MONTH\":\"5\",\"CREATED_ON_YEAR\":\"2018\",\"CREDIT\":10,\"DEBIT\":100,\"MEMBERCODE\":\"0\",\"S_ID\":\"87\",\"TxNumber\":\"3\",\"docType\":\"TRANSACTION\"}]"}
+
+
+
+
+[
+    {
+        "name": 現金,
+        "subject":1101
+    },
+    {
+        "name": 現金,
+        "subject":1101
+    }
+
+
+]
