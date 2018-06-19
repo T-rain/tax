@@ -67,6 +67,7 @@
             $.get("http://localhost:3000/members?account="+name+"&password="+password)
             .done(function(info) {
                 console.dir(info);
+                info = JSON.parse(info);
                 sessionStorage.setItem("gia_user", info.COOKIE_KEY);
                 sessionStorage.setItem("gia_user_mb", info.MEMBERCODE);
                 swal({
