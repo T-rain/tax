@@ -25,7 +25,8 @@
                 <div class="form-group">
                     <label class="col-sm-4 control-label">科目名稱</label>
                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="formSubject" placeholder="請輸入科目名稱">
+                        <select class="form-control" id="formSubject">
+                        </select>
                     </div>
                 </div>
                 <div class="form-group">
@@ -61,15 +62,30 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
     <script>
+        $.ajax({
+            url: "./name_subjectNo.json",
+            dataType: "json",
+            success: function(data) {
+                setting(data);
+            }
+        });
+
+        function setting(data){
+            data.forEach(element => {
+                $('#formSubject').append($("<option></option>")
+                    .attr("value",element.subjectNo)
+                    .text(element.name)); 
+            });
+            
+        }
   
         document.getElementById('sendMessage').onclick = function() {
 
-            let _result  = sessionStorage.getItem('gia_user');
+            let _ck  = sessionStorage.getItem('gia_user');
             // formDebit
-            var _subject = document.getElementById('formSubject').value;
-            var _credit = document.getElementById('formCredit').value;
-            var _debit = document.getElementById('formDebit').value;
-            
+            var _subject = document.getElementById('#formSubject').value;
+            var _credit = document.getElementById('#formCredit').value;
+            var _debit = document.getElementById('#formDebit').value;
             
             // sessionStorage.setItem("gia_user", name);
             // gia_user_cookie_key
@@ -80,22 +96,19 @@
             //     title: '帳號或密碼輸入錯誤'
             // })
         
-
-            $.get("http://localhost:3000/members?account="+name+"&password="+password)
+            $.get("http://localhost:3000/members?ck="+_ck +"&sid="+_subject+"&credit="+_credit+"&debit="+_debit)
                 .done(function(result) {
                     console.log(result);
                     
                     swal({
                         type: 'success',
-                        title: '登入成功'
+                        title: '寫入成功'
                     })
-                    sessionStorage.setItem("gia_user", result);
-                    window.location = 'index.html';
                 })
                 .fail(function() {
                     swal({
                         type: 'error',
-                        title: '帳號或密碼輸入錯誤'
+                        title: '寫入失敗'
                     })
                 })
         }

@@ -1,0 +1,1593 @@
+[
+	{
+		"name": "庫存現金",
+		"subjectNo": "1111"
+	},
+	{
+		"name": "零用金",
+		"subjectNo": "1112"
+	},
+	{
+		"name": "銀行存款",
+		"subjectNo": "1113"
+	},
+	{
+		"name": "定期存款",
+		"subjectNo": "1114"
+	},
+	{
+		"name": "可轉讓定存單",
+		"subjectNo": "1115"
+	},
+	{
+		"name": "在途現金",
+		"subjectNo": "1116"
+	},
+	{
+		"name": "約當現金",
+		"subjectNo": "1117"
+	},
+	{
+		"name": "其他現金及約當現金",
+		"subjectNo": "1118"
+	},
+	{
+		"name": "銀行間轉賬",
+		"subjectNo": "1119"
+	},
+	{
+		"name": "公平價值變動列入損益之金融資產",
+		"subjectNo": "1121"
+	},
+	{
+		"name": "備供出售金融資產",
+		"subjectNo": "1122"
+	},
+	{
+		"name": "持有至到期日金融資產",
+		"subjectNo": "1123"
+	},
+	{
+		"name": "金融資產評價調整",
+		"subjectNo": "1129"
+	},
+	{
+		"name": "應收票據",
+		"subjectNo": "1131"
+	},
+	{
+		"name": "應收票據貼現",
+		"subjectNo": "1132"
+	},
+	{
+		"name": "應收票據－關係人",
+		"subjectNo": "1137"
+	},
+	{
+		"name": "其他應收票據",
+		"subjectNo": "1138"
+	},
+	{
+		"name": "備抵呆帳－應收票據",
+		"subjectNo": "1139"
+	},
+	{
+		"name": "應收帳款",
+		"subjectNo": "1141"
+	},
+	{
+		"name": "應收分期帳款",
+		"subjectNo": "1142"
+	},
+	{
+		"name": "應收帳款－關係人",
+		"subjectNo": "1147"
+	},
+	{
+		"name": "備抵呆帳－應收帳款",
+		"subjectNo": "1149"
+	},
+	{
+		"name": "避險之衍生性金融資產",
+		"subjectNo": "1151"
+	},
+	{
+		"name": "避險之衍生性金融資產評價調整",
+		"subjectNo": "1156"
+	},
+	{
+		"name": "應收收益",
+		"subjectNo": "1184"
+	},
+	{
+		"name": "應收退稅款",
+		"subjectNo": "1185"
+	},
+	{
+		"name": "其他應收款",
+		"subjectNo": "1187"
+	},
+	{
+		"name": "其他應收款－其他",
+		"subjectNo": "1188"
+	},
+	{
+		"name": "備抵呆帳－其他應收款",
+		"subjectNo": "1189"
+	},
+	{
+		"name": "商品存貨",
+		"subjectNo": "1211"
+	},
+	{
+		"name": "寄銷商品",
+		"subjectNo": "1212"
+	},
+	{
+		"name": "在途商品",
+		"subjectNo": "1213"
+	},
+	{
+		"name": "備抵存貨跌價損失",
+		"subjectNo": "1219"
+	},
+	{
+		"name": "製成品",
+		"subjectNo": "1221"
+	},
+	{
+		"name": "寄銷製成品",
+		"subjectNo": "1222"
+	},
+	{
+		"name": "副產品",
+		"subjectNo": "1223"
+	},
+	{
+		"name": "在製品",
+		"subjectNo": "1224"
+	},
+	{
+		"name": "委外加工",
+		"subjectNo": "1225"
+	},
+	{
+		"name": "原料",
+		"subjectNo": "1226"
+	},
+	{
+		"name": "物料",
+		"subjectNo": "1227"
+	},
+	{
+		"name": "在途原物料",
+		"subjectNo": "1228"
+	},
+	{
+		"name": "備抵存貨跌價損失",
+		"subjectNo": "1229"
+	},
+	{
+		"name": "預付薪資",
+		"subjectNo": "1251"
+	},
+	{
+		"name": "預付租金",
+		"subjectNo": "1252"
+	},
+	{
+		"name": "預付保險費",
+		"subjectNo": "1253"
+	},
+	{
+		"name": "用品盤存",
+		"subjectNo": "1254"
+	},
+	{
+		"name": "預付所得稅",
+		"subjectNo": "1255"
+	},
+	{
+		"name": "其他預付費用",
+		"subjectNo": "1258"
+	},
+	{
+		"name": "預付貨款",
+		"subjectNo": "1261"
+	},
+	{
+		"name": "其他預付款項",
+		"subjectNo": "1268"
+	},
+	{
+		"name": "進項稅額",
+		"subjectNo": "1281"
+	},
+	{
+		"name": "留抵稅額",
+		"subjectNo": "1282"
+	},
+	{
+		"name": "暫付款",
+		"subjectNo": "1283"
+	},
+	{
+		"name": "代付款",
+		"subjectNo": "1284"
+	},
+	{
+		"name": "員工借支",
+		"subjectNo": "1285"
+	},
+	{
+		"name": "存出保證金",
+		"subjectNo": "1286"
+	},
+	{
+		"name": "受限制存款",
+		"subjectNo": "1287"
+	},
+	{
+		"name": "遞延所得稅資產",
+		"subjectNo": "1291"
+	},
+	{
+		"name": "遞延兌換損失",
+		"subjectNo": "1292"
+	},
+	{
+		"name": "業主(股東)往來",
+		"subjectNo": "1293"
+	},
+	{
+		"name": "同業往來",
+		"subjectNo": "1294"
+	},
+	{
+		"name": "其他流動資產－其他",
+		"subjectNo": "1298"
+	},
+	{
+		"name": "償債基金",
+		"subjectNo": "1311"
+	},
+	{
+		"name": "改良及擴充基金",
+		"subjectNo": "1312"
+	},
+	{
+		"name": "意外損失準備基金",
+		"subjectNo": "1313"
+	},
+	{
+		"name": "退休基金",
+		"subjectNo": "1314"
+	},
+	{
+		"name": "其他基金",
+		"subjectNo": "1318"
+	},
+	{
+		"name": "公平價值變動列入損益之金融資產－非流動",
+		"subjectNo": "1321"
+	},
+	{
+		"name": "備供出售金融資產－非流動",
+		"subjectNo": "1322"
+	},
+	{
+		"name": "持有至到期日金融資產－非流動",
+		"subjectNo": "1323"
+	},
+	{
+		"name": "以成本衡量之金融資產",
+		"subjectNo": "1325"
+	},
+	{
+		"name": "金融資產評價調整",
+		"subjectNo": "1329"
+	},
+	{
+		"name": "採權益法之長期股權投資",
+		"subjectNo": "1331"
+	},
+	{
+		"name": "長期不動產投資",
+		"subjectNo": "1341"
+	},
+	{
+		"name": "人壽保險現金解約價值",
+		"subjectNo": "1345"
+	},
+	{
+		"name": "其他長期投資",
+		"subjectNo": "1349"
+	},
+	{
+		"name": "土地",
+		"subjectNo": "1411"
+	},
+	{
+		"name": "土地－重估增值",
+		"subjectNo": "1417"
+	},
+	{
+		"name": "累計減損-土地",
+		"subjectNo": "1419"
+	},
+	{
+		"name": "土地改良物",
+		"subjectNo": "1421"
+	},
+	{
+		"name": "土地改良物－重估增值",
+		"subjectNo": "1427"
+	},
+	{
+		"name": "累計折舊－土地改良物",
+		"subjectNo": "1428"
+	},
+	{
+		"name": "累計減損-土地改良物",
+		"subjectNo": "1429"
+	},
+	{
+		"name": "房屋及建築",
+		"subjectNo": "1431"
+	},
+	{
+		"name": "房屋及建築－重估增值",
+		"subjectNo": "1437"
+	},
+	{
+		"name": "累計折舊－房屋及建築",
+		"subjectNo": "1438"
+	},
+	{
+		"name": "累計減損-房屋及建築",
+		"subjectNo": "1439"
+	},
+	{
+		"name": "機(器)具",
+		"subjectNo": "1441"
+	},
+	{
+		"name": "機(器)具－重估增值",
+		"subjectNo": "1447"
+	},
+	{
+		"name": "累計折舊－機(器)具",
+		"subjectNo": "1448"
+	},
+	{
+		"name": "累計減損－機(器)具",
+		"subjectNo": "1449"
+	},
+	{
+		"name": "租賃資產",
+		"subjectNo": "1511"
+	},
+	{
+		"name": "累計折舊－租賃資產",
+		"subjectNo": "1518"
+	},
+	{
+		"name": "累計減損－租賃資產",
+		"subjectNo": "1519"
+	},
+	{
+		"name": "租賃權益改良",
+		"subjectNo": "1521"
+	},
+	{
+		"name": "累計折舊－租賃權益改良",
+		"subjectNo": "1528"
+	},
+	{
+		"name": "累計減損－租賃權益改良",
+		"subjectNo": "1529"
+	},
+	{
+		"name": "未完工程",
+		"subjectNo": "1561"
+	},
+	{
+		"name": "預付購置設備款",
+		"subjectNo": "1562"
+	},
+	{
+		"name": "累計減損－未完工程",
+		"subjectNo": "1569"
+	},
+	{
+		"name": "雜項固定資產",
+		"subjectNo": "1581"
+	},
+	{
+		"name": "雜項固定資產－重估增值",
+		"subjectNo": "1587"
+	},
+	{
+		"name": "累計折舊－雜項固定資產",
+		"subjectNo": "1588"
+	},
+	{
+		"name": "累計減損－雜項固定資產",
+		"subjectNo": "1589"
+	},
+	{
+		"name": "天然資源",
+		"subjectNo": "1611"
+	},
+	{
+		"name": "天然資源－重估增值",
+		"subjectNo": "1617"
+	},
+	{
+		"name": "累計折耗－天然資源",
+		"subjectNo": "1618"
+	},
+	{
+		"name": "累計減損－天然資源",
+		"subjectNo": "1619"
+	},
+	{
+		"name": "商標權－重估增值",
+		"subjectNo": "1717"
+	},
+	{
+		"name": "累計減損－商標權",
+		"subjectNo": "1719"
+	},
+	{
+		"name": "專利權",
+		"subjectNo": "1721"
+	},
+	{
+		"name": "專利權－重估增值",
+		"subjectNo": "1727"
+	},
+	{
+		"name": "累計減損－專利權",
+		"subjectNo": "1729"
+	},
+	{
+		"name": "特許權",
+		"subjectNo": "1731"
+	},
+	{
+		"name": "累計減損－特許權",
+		"subjectNo": "1739"
+	},
+	{
+		"name": "著作權",
+		"subjectNo": "1741"
+	},
+	{
+		"name": "累計減損－著作權",
+		"subjectNo": "1749"
+	},
+	{
+		"name": "電腦軟體",
+		"subjectNo": "1751"
+	},
+	{
+		"name": "累計攤銷-電腦軟體",
+		"subjectNo": "1758"
+	},
+	{
+		"name": "累計減損－電腦軟體",
+		"subjectNo": "1759"
+	},
+	{
+		"name": "商譽",
+		"subjectNo": "1761"
+	},
+	{
+		"name": "累計減損－商譽",
+		"subjectNo": "1769"
+	},
+	{
+		"name": "遞延退休金成本",
+		"subjectNo": "1781"
+	},
+	{
+		"name": "租賃權益改良",
+		"subjectNo": "1782"
+	},
+	{
+		"name": "其他無形資產－其他",
+		"subjectNo": "1788"
+	},
+	{
+		"name": "累計減損-其他",
+		"subjectNo": "1789"
+	},
+	{
+		"name": "債券發行成本",
+		"subjectNo": "1811"
+	},
+	{
+		"name": "長期預付租金",
+		"subjectNo": "1812"
+	},
+	{
+		"name": "長期預付保險費",
+		"subjectNo": "1813"
+	},
+	{
+		"name": "遞延所得稅資產",
+		"subjectNo": "1814"
+	},
+	{
+		"name": "預付退休金",
+		"subjectNo": "1815"
+	},
+	{
+		"name": "其他遞延資產",
+		"subjectNo": "1818"
+	},
+	{
+		"name": "閒置資產",
+		"subjectNo": "1821"
+	},
+	{
+		"name": "長期應收票據",
+		"subjectNo": "1841"
+	},
+	{
+		"name": "長期應收帳款",
+		"subjectNo": "1842"
+	},
+	{
+		"name": "催收帳款",
+		"subjectNo": "1843"
+	},
+	{
+		"name": "長期應收票據及款項與催收帳款－關係人",
+		"subjectNo": "1847"
+	},
+	{
+		"name": "其他長期應收款項",
+		"subjectNo": "1848"
+	},
+	{
+		"name": "備抵呆帳-長期應收票據及款項與催收帳款",
+		"subjectNo": "1849"
+	},
+	{
+		"name": "出租資產",
+		"subjectNo": "1851"
+	},
+	{
+		"name": "累積折舊－出租資產",
+		"subjectNo": "1859"
+	},
+	{
+		"name": "存出保證金",
+		"subjectNo": "1861"
+	},
+	{
+		"name": "受限制存款",
+		"subjectNo": "1881"
+	},
+	{
+		"name": "雜項資產－其他",
+		"subjectNo": "1888"
+	},
+	{
+		"name": "銀行透支",
+		"subjectNo": "2111"
+	},
+	{
+		"name": "銀行借款",
+		"subjectNo": "2112"
+	},
+	{
+		"name": "短期借款－業主",
+		"subjectNo": "2114"
+	},
+	{
+		"name": "短期借款－員工",
+		"subjectNo": "2115"
+	},
+	{
+		"name": "短期借款－關係人",
+		"subjectNo": "2117"
+	},
+	{
+		"name": "短期借款－其他",
+		"subjectNo": "2118"
+	},
+	{
+		"name": "應付商業本票",
+		"subjectNo": "2121"
+	},
+	{
+		"name": "銀行承兌匯票",
+		"subjectNo": "2122"
+	},
+	{
+		"name": "其他應付短期票券",
+		"subjectNo": "2128"
+	},
+	{
+		"name": "應付短期票券折價",
+		"subjectNo": "2129"
+	},
+	{
+		"name": "應付票據",
+		"subjectNo": "2131"
+	},
+	{
+		"name": "應付票據－關係人",
+		"subjectNo": "2137"
+	},
+	{
+		"name": "其他應付票據",
+		"subjectNo": "2138"
+	},
+	{
+		"name": "應付帳款",
+		"subjectNo": "2141"
+	},
+	{
+		"name": "應付帳款－關係人",
+		"subjectNo": "2147"
+	},
+	{
+		"name": "公平價值變動列入損益之金融負債",
+		"subjectNo": "2151"
+	},
+	{
+		"name": "避險之衍生性金融負債",
+		"subjectNo": "2152"
+	},
+	{
+		"name": "以成本衡量之金融負債",
+		"subjectNo": "2153"
+	},
+	{
+		"name": "金融負債評價調整",
+		"subjectNo": "2159"
+	},
+	{
+		"name": "應付所得稅",
+		"subjectNo": "2161"
+	},
+	{
+		"name": "應付薪工",
+		"subjectNo": "2171"
+	},
+	{
+		"name": "應付租金",
+		"subjectNo": "2172"
+	},
+	{
+		"name": "應付利息",
+		"subjectNo": "2173"
+	},
+	{
+		"name": "應付營業稅",
+		"subjectNo": "2174"
+	},
+	{
+		"name": "應付稅捐－其他",
+		"subjectNo": "2175"
+	},
+	{
+		"name": "應付費用",
+		"subjectNo": "2177"
+	},
+	{
+		"name": "其他應付費用",
+		"subjectNo": "2178"
+	},
+	{
+		"name": "應付土地房屋款",
+		"subjectNo": "2184"
+	},
+	{
+		"name": "應付設備款",
+		"subjectNo": "2185"
+	},
+	{
+		"name": "其他應付款－關係人",
+		"subjectNo": "2187"
+	},
+	{
+		"name": "應付股利",
+		"subjectNo": "2191"
+	},
+	{
+		"name": "應付紅利",
+		"subjectNo": "2192"
+	},
+	{
+		"name": "應付董監事酬勞",
+		"subjectNo": "2193"
+	},
+	{
+		"name": "其他應付款－其他",
+		"subjectNo": "2198"
+	},
+	{
+		"name": "特別股負債－流動",
+		"subjectNo": "2251"
+	},
+	{
+		"name": "預收貨款",
+		"subjectNo": "2261"
+	},
+	{
+		"name": "預收收入",
+		"subjectNo": "2262"
+	},
+	{
+		"name": "其他預收款",
+		"subjectNo": "2268"
+	},
+	{
+		"name": "一年內到期公司債",
+		"subjectNo": "2271"
+	},
+	{
+		"name": "一年內到期長期借款",
+		"subjectNo": "2272"
+	},
+	{
+		"name": "一年內到期長期應付票據及款項",
+		"subjectNo": "2273"
+	},
+	{
+		"name": "一年內到期長期應付票據及款項－關係人",
+		"subjectNo": "2277"
+	},
+	{
+		"name": "一年內到期其他長期負債",
+		"subjectNo": "2278"
+	},
+	{
+		"name": "銷項稅額",
+		"subjectNo": "2281"
+	},
+	{
+		"name": "代扣款",
+		"subjectNo": "2282"
+	},
+	{
+		"name": "暫收款",
+		"subjectNo": "2283"
+	},
+	{
+		"name": "代收款",
+		"subjectNo": "2284"
+	},
+	{
+		"name": "估計售後服務／保固負債",
+		"subjectNo": "2285"
+	},
+	{
+		"name": "遞延所得稅負債",
+		"subjectNo": "2291"
+	},
+	{
+		"name": "遞延兌換利益",
+		"subjectNo": "2292"
+	},
+	{
+		"name": "業主(股東)往來",
+		"subjectNo": "2293"
+	},
+	{
+		"name": "同業往來",
+		"subjectNo": "2294"
+	},
+	{
+		"name": "其他流動負債－其他",
+		"subjectNo": "2298"
+	},
+	{
+		"name": "應付公司債",
+		"subjectNo": "2311"
+	},
+	{
+		"name": "應付公司債溢(折)價",
+		"subjectNo": "2312"
+	},
+	{
+		"name": "長期銀行借款",
+		"subjectNo": "2321"
+	},
+	{
+		"name": "長期借款－業主",
+		"subjectNo": "2322"
+	},
+	{
+		"name": "長期借款－員工",
+		"subjectNo": "2323"
+	},
+	{
+		"name": "長期借款－關係人",
+		"subjectNo": "2324"
+	},
+	{
+		"name": "長期借款－其他",
+		"subjectNo": "2325"
+	},
+	{
+		"name": "長期應付票據",
+		"subjectNo": "2331"
+	},
+	{
+		"name": "長期應付帳款",
+		"subjectNo": "2332"
+	},
+	{
+		"name": "長期應付租賃負債",
+		"subjectNo": "2333"
+	},
+	{
+		"name": "長期應付票據及款項－關係人",
+		"subjectNo": "2337"
+	},
+	{
+		"name": "其他長期應付款項",
+		"subjectNo": "2338"
+	},
+	{
+		"name": "估計應付土地增值稅",
+		"subjectNo": "2341"
+	},
+	{
+		"name": "應計退休金負債",
+		"subjectNo": "2351"
+	},
+	{
+		"name": "公平價值變動列入損益之金融負債-非流動",
+		"subjectNo": "2361"
+	},
+	{
+		"name": "避險之衍生性金融負債-非流動",
+		"subjectNo": "2362"
+	},
+	{
+		"name": "以成本衡量之金融負債-非流動",
+		"subjectNo": "2363"
+	},
+	{
+		"name": "金融負債評價調整-非流動",
+		"subjectNo": "2369"
+	},
+	{
+		"name": "特別股負債",
+		"subjectNo": "2371"
+	},
+	{
+		"name": "其他長期負債—其他",
+		"subjectNo": "2381"
+	},
+	{
+		"name": "遞延收入",
+		"subjectNo": "2811"
+	},
+	{
+		"name": "遞延所得稅負債",
+		"subjectNo": "2814"
+	},
+	{
+		"name": "其他遞延負債",
+		"subjectNo": "2818"
+	},
+	{
+		"name": "存入保證金",
+		"subjectNo": "2861"
+	},
+	{
+		"name": "雜項負債－其他",
+		"subjectNo": "2888"
+	},
+	{
+		"name": "普通股股本",
+		"subjectNo": "3111"
+	},
+	{
+		"name": "特別股股本",
+		"subjectNo": "3112"
+	},
+	{
+		"name": "預收股本",
+		"subjectNo": "3113"
+	},
+	{
+		"name": "待分配股票股利",
+		"subjectNo": "3114"
+	},
+	{
+		"name": "資本",
+		"subjectNo": "3115"
+	},
+	{
+		"name": "普通股股票溢價",
+		"subjectNo": "3211"
+	},
+	{
+		"name": "特別股股票溢價",
+		"subjectNo": "3212"
+	},
+	{
+		"name": "庫藏股溢價公積",
+		"subjectNo": "3214"
+	},
+	{
+		"name": "其他溢價公積",
+		"subjectNo": "3219"
+	},
+	{
+		"name": "受贈公積",
+		"subjectNo": "3261"
+	},
+	{
+		"name": "權益法長期股權投資資本公積",
+		"subjectNo": "3281"
+	},
+	{
+		"name": "法定盈餘公積",
+		"subjectNo": "3311"
+	},
+	{
+		"name": "意外損失準備",
+		"subjectNo": "3321"
+	},
+	{
+		"name": "改良擴充準備",
+		"subjectNo": "3322"
+	},
+	{
+		"name": "償債準備",
+		"subjectNo": "3323"
+	},
+	{
+		"name": "其他特別盈餘公積",
+		"subjectNo": "3328"
+	},
+	{
+		"name": "累積盈虧",
+		"subjectNo": "3351"
+	},
+	{
+		"name": "前期損益調整",
+		"subjectNo": "3352"
+	},
+	{
+		"name": "本期損益",
+		"subjectNo": "3353"
+	},
+	{
+		"name": "金融商品未實現損益",
+		"subjectNo": "3411"
+	},
+	{
+		"name": "累積換算調整數",
+		"subjectNo": "3421"
+	},
+	{
+		"name": "未認列為退休金成本之淨損失",
+		"subjectNo": "3431"
+	},
+	{
+		"name": "未實現重估增值",
+		"subjectNo": "3441"
+	},
+	{
+		"name": "庫藏股",
+		"subjectNo": "3451"
+	},
+	{
+		"name": "少數股權",
+		"subjectNo": "3611"
+	},
+	{
+		"name": "銷貨收入",
+		"subjectNo": "4111"
+	},
+	{
+		"name": "分期付款銷貨收入",
+		"subjectNo": "4112"
+	},
+	{
+		"name": "銷貨退回",
+		"subjectNo": "4171"
+	},
+	{
+		"name": "銷貨折讓",
+		"subjectNo": "4191"
+	},
+	{
+		"name": "勞務收入",
+		"subjectNo": "4611"
+	},
+	{
+		"name": "業務收入",
+		"subjectNo": "4711"
+	},
+	{
+		"name": "其他營業收入－其他",
+		"subjectNo": "4888"
+	},
+	{
+		"name": "銷貨成本",
+		"subjectNo": "5111"
+	},
+	{
+		"name": "分期付款銷貨成本",
+		"subjectNo": "5112"
+	},
+	{
+		"name": "進貨",
+		"subjectNo": "5121"
+	},
+	{
+		"name": "進貨費用",
+		"subjectNo": "5122"
+	},
+	{
+		"name": "進貨退出",
+		"subjectNo": "5123"
+	},
+	{
+		"name": "進貨折讓",
+		"subjectNo": "5124"
+	},
+	{
+		"name": "進料",
+		"subjectNo": "5131"
+	},
+	{
+		"name": "進料費用",
+		"subjectNo": "5132"
+	},
+	{
+		"name": "進料退出",
+		"subjectNo": "5133"
+	},
+	{
+		"name": "進料折讓",
+		"subjectNo": "5134"
+	},
+	{
+		"name": "直接人工",
+		"subjectNo": "5141"
+	},
+	{
+		"name": "間接人工",
+		"subjectNo": "5151"
+	},
+	{
+		"name": "租金支出",
+		"subjectNo": "5152"
+	},
+	{
+		"name": "文具用品",
+		"subjectNo": "5153"
+	},
+	{
+		"name": "旅費",
+		"subjectNo": "5154"
+	},
+	{
+		"name": "運費",
+		"subjectNo": "5155"
+	},
+	{
+		"name": "郵電費",
+		"subjectNo": "5156"
+	},
+	{
+		"name": "修繕費",
+		"subjectNo": "5157"
+	},
+	{
+		"name": "包裝費",
+		"subjectNo": "5158"
+	},
+	{
+		"name": "水電瓦斯費",
+		"subjectNo": "5161"
+	},
+	{
+		"name": "保險費",
+		"subjectNo": "5162"
+	},
+	{
+		"name": "加工費",
+		"subjectNo": "5163"
+	},
+	{
+		"name": "稅捐",
+		"subjectNo": "5166"
+	},
+	{
+		"name": "折舊",
+		"subjectNo": "5168"
+	},
+	{
+		"name": "各項耗竭及攤提",
+		"subjectNo": "5169"
+	},
+	{
+		"name": "伙食費",
+		"subjectNo": "5172"
+	},
+	{
+		"name": "職工福利",
+		"subjectNo": "5173"
+	},
+	{
+		"name": "訓練費",
+		"subjectNo": "5176"
+	},
+	{
+		"name": "間接材料",
+		"subjectNo": "5177"
+	},
+	{
+		"name": "其他製造費用",
+		"subjectNo": "5188"
+	},
+	{
+		"name": "勞務成本",
+		"subjectNo": "5611"
+	},
+	{
+		"name": "業務成本",
+		"subjectNo": "5711"
+	},
+	{
+		"name": "其他營業成本—其他",
+		"subjectNo": "5888"
+	},
+	{
+		"name": "薪資支出",
+		"subjectNo": "6151"
+	},
+	{
+		"name": "租金支出",
+		"subjectNo": "6152"
+	},
+	{
+		"name": "文具用品",
+		"subjectNo": "6153"
+	},
+	{
+		"name": "旅費",
+		"subjectNo": "6154"
+	},
+	{
+		"name": "運費",
+		"subjectNo": "6155"
+	},
+	{
+		"name": "郵電費",
+		"subjectNo": "6156"
+	},
+	{
+		"name": "修繕費",
+		"subjectNo": "6157"
+	},
+	{
+		"name": "廣告費",
+		"subjectNo": "6159"
+	},
+	{
+		"name": "水電瓦斯費",
+		"subjectNo": "6161"
+	},
+	{
+		"name": "保險費",
+		"subjectNo": "6162"
+	},
+	{
+		"name": "服務費",
+		"subjectNo": "6163"
+	},
+	{
+		"name": "交際費",
+		"subjectNo": "6164"
+	},
+	{
+		"name": "捐贈",
+		"subjectNo": "6165"
+	},
+	{
+		"name": "稅捐",
+		"subjectNo": "6166"
+	},
+	{
+		"name": "呆帳損失",
+		"subjectNo": "6167"
+	},
+	{
+		"name": "折舊",
+		"subjectNo": "6168"
+	},
+	{
+		"name": "各項耗竭及攤提",
+		"subjectNo": "6169"
+	},
+	{
+		"name": "伙食費",
+		"subjectNo": "6172"
+	},
+	{
+		"name": "職工福利",
+		"subjectNo": "6173"
+	},
+	{
+		"name": "其它費用",
+		"subjectNo": "6174"
+	},
+	{
+		"name": "佣金支出",
+		"subjectNo": "6175"
+	},
+	{
+		"name": "訓練費",
+		"subjectNo": "6176"
+	},
+	{
+		"name": "其他推銷費用",
+		"subjectNo": "6188"
+	},
+	{
+		"name": "薪資支出",
+		"subjectNo": "6251"
+	},
+	{
+		"name": "租金支出",
+		"subjectNo": "6252"
+	},
+	{
+		"name": "文具用品",
+		"subjectNo": "6253"
+	},
+	{
+		"name": "旅費",
+		"subjectNo": "6254"
+	},
+	{
+		"name": "運費",
+		"subjectNo": "6255"
+	},
+	{
+		"name": "郵電費",
+		"subjectNo": "6256"
+	},
+	{
+		"name": "修繕費",
+		"subjectNo": "6257"
+	},
+	{
+		"name": "手續費",
+		"subjectNo": "6258"
+	},
+	{
+		"name": "廣告費",
+		"subjectNo": "6259"
+	},
+	{
+		"name": "水電瓦斯費",
+		"subjectNo": "6261"
+	},
+	{
+		"name": "保險費",
+		"subjectNo": "6262"
+	},
+	{
+		"name": "利息費用",
+		"subjectNo": "6263"
+	},
+	{
+		"name": "交際費",
+		"subjectNo": "6264"
+	},
+	{
+		"name": "捐贈",
+		"subjectNo": "6265"
+	},
+	{
+		"name": "稅捐",
+		"subjectNo": "6266"
+	},
+	{
+		"name": "呆帳損失",
+		"subjectNo": "6267"
+	},
+	{
+		"name": "折舊",
+		"subjectNo": "6268"
+	},
+	{
+		"name": "各項耗竭及攤提",
+		"subjectNo": "6269"
+	},
+	{
+		"name": "外銷損失",
+		"subjectNo": "6271"
+	},
+	{
+		"name": "伙食費",
+		"subjectNo": "6272"
+	},
+	{
+		"name": "職工福利",
+		"subjectNo": "6273"
+	},
+	{
+		"name": "推廣貿易服務費用",
+		"subjectNo": "6274"
+	},
+	{
+		"name": "佣金支出",
+		"subjectNo": "6275"
+	},
+	{
+		"name": "訓練費",
+		"subjectNo": "6276"
+	},
+	{
+		"name": "差旅費",
+		"subjectNo": "6277"
+	},
+	{
+		"name": "勞務費",
+		"subjectNo": "6278"
+	},
+	{
+		"name": "包裝費用",
+		"subjectNo": "6279"
+	},
+	{
+		"name": "勞工退休金",
+		"subjectNo": "6281"
+	},
+	{
+		"name": "其他費用",
+		"subjectNo": "6287"
+	},
+	{
+		"name": "其他管理及總務費用",
+		"subjectNo": "6288"
+	},
+	{
+		"name": "薪資支出",
+		"subjectNo": "6351"
+	},
+	{
+		"name": "租金支出",
+		"subjectNo": "6352"
+	},
+	{
+		"name": "文具用品",
+		"subjectNo": "6353"
+	},
+	{
+		"name": "旅費",
+		"subjectNo": "6354"
+	},
+	{
+		"name": "運費",
+		"subjectNo": "6355"
+	},
+	{
+		"name": "郵電費",
+		"subjectNo": "6356"
+	},
+	{
+		"name": "修繕費",
+		"subjectNo": "6357"
+	},
+	{
+		"name": "水電瓦斯費",
+		"subjectNo": "6361"
+	},
+	{
+		"name": "保險費",
+		"subjectNo": "6362"
+	},
+	{
+		"name": "交際費",
+		"subjectNo": "6364"
+	},
+	{
+		"name": "稅捐",
+		"subjectNo": "6366"
+	},
+	{
+		"name": "折舊",
+		"subjectNo": "6368"
+	},
+	{
+		"name": "各項耗竭及攤提",
+		"subjectNo": "6369"
+	},
+	{
+		"name": "伙食費",
+		"subjectNo": "6372"
+	},
+	{
+		"name": "職工福利",
+		"subjectNo": "6373"
+	},
+	{
+		"name": "訓練費",
+		"subjectNo": "6376"
+	},
+	{
+		"name": "其他研究發展費用",
+		"subjectNo": "6378"
+	},
+	{
+		"name": "利息收入",
+		"subjectNo": "7111"
+	},
+	{
+		"name": "金融資產評價利益",
+		"subjectNo": "7141"
+	},
+	{
+		"name": "金融負債評價利益",
+		"subjectNo": "7142"
+	},
+	{
+		"name": "採權益法認列之投資收益",
+		"subjectNo": "7143"
+	},
+	{
+		"name": "兌換利益",
+		"subjectNo": "7151"
+	},
+	{
+		"name": "處分投資收益",
+		"subjectNo": "7161"
+	},
+	{
+		"name": "處分資產溢價收入",
+		"subjectNo": "7171"
+	},
+	{
+		"name": "減損迴轉利益",
+		"subjectNo": "7181"
+	},
+	{
+		"name": "捐贈收入",
+		"subjectNo": "7481"
+	},
+	{
+		"name": "租金收入",
+		"subjectNo": "7482"
+	},
+	{
+		"name": "佣金收入",
+		"subjectNo": "7483"
+	},
+	{
+		"name": "出售下腳及廢料收入",
+		"subjectNo": "7484"
+	},
+	{
+		"name": "存貨盤盈",
+		"subjectNo": "7485"
+	},
+	{
+		"name": "存貨跌價回升利益",
+		"subjectNo": "7486"
+	},
+	{
+		"name": "壞帳轉回利益",
+		"subjectNo": "7487"
+	},
+	{
+		"name": "其他營業外收益－其他",
+		"subjectNo": "7488"
+	},
+	{
+		"name": "其他營業外收益－系統小數位差正負1元",
+		"subjectNo": "7489"
+	},
+	{
+		"name": "利息費用",
+		"subjectNo": "7511"
+	},
+	{
+		"name": "負債性特別股股息",
+		"subjectNo": "7521"
+	},
+	{
+		"name": "金融資產評價損失",
+		"subjectNo": "7531"
+	},
+	{
+		"name": "金融負債評價損失",
+		"subjectNo": "7532"
+	},
+	{
+		"name": "採權益法認列之投資損失",
+		"subjectNo": "7533"
+	},
+	{
+		"name": "兌換損失",
+		"subjectNo": "7541"
+	},
+	{
+		"name": "處分資產損失",
+		"subjectNo": "7551"
+	},
+	{
+		"name": "減損損失",
+		"subjectNo": "7681"
+	},
+	{
+		"name": "停工損失",
+		"subjectNo": "7881"
+	},
+	{
+		"name": "災害損失",
+		"subjectNo": "7882"
+	},
+	{
+		"name": "存貨盤損",
+		"subjectNo": "7885"
+	},
+	{
+		"name": "存貨跌價及呆滯損失",
+		"subjectNo": "7886"
+	},
+	{
+		"name": "其他營業外費損－其他",
+		"subjectNo": "7888"
+	},
+	{
+		"name": "繼續營業部門稅前純益（或純損）",
+		"subjectNo": "7911"
+	},
+	{
+		"name": "所得稅費用(或利益)",
+		"subjectNo": "8111"
+	},
+	{
+		"name": "繼續營業部門稅後純益（或純損）",
+		"subjectNo": "8211"
+	},
+	{
+		"name": "停業部門營業損益",
+		"subjectNo": "9111"
+	},
+	{
+		"name": "停業部門處分損益及依淨公平價值衡量損益",
+		"subjectNo": "9112"
+	},
+	{
+		"name": "非常損益",
+		"subjectNo": "9211"
+	},
+	{
+		"name": "會計原則變動累積影響數",
+		"subjectNo": "9311"
+	},
+	{
+		"name": "少數股權淨利",
+		"subjectNo": "9411"
+	},
+	{
+		"name": "",
+		"subjectNo": ""
+	},
+	{
+		"name": "",
+		"subjectNo": ""
+	},
+	{
+		"name": ""
+	}
+]
