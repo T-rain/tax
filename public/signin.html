@@ -66,8 +66,9 @@
         }else{
             $.get("http://localhost:3000/members?account="+name+"&password="+password)
             .done(function(result) {
-                console.log(result);
-                sessionStorage.setItem("gia_user", result);
+                console.dir(result);
+                sessionStorage.setItem("gia_user", result.data.COOKIE_KEY);
+                sessionStorage.setItem("gia_user_mb", result.data.MEMBERCODE);
                 swal({
                     type: 'success',
                     title: '登入成功'

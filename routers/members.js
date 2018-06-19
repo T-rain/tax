@@ -26,9 +26,11 @@ router.get('/',async function(ctx,next){
         };
 
         let result = await requestPN(options);
+        console.dir(result);
         ctx.status = 200;
         ctx.body = result;
     } catch (e) {
+        console.dir(e);
         ctx.status = 400;
         ctx.body = "error";
     }
