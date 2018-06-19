@@ -10,6 +10,7 @@ const logger = require('koa-logger');
 
 // const index = require('./routers/index');
 const members = require('./routers/members');
+const writes = require('./routers/writes');
 // const clubs = require('./routers/clubs');
 // const discuss = require('./routers/discuss');
 // const memberlists = require('./routers/memberlists');
@@ -51,7 +52,7 @@ app.use(require('koa-static')(__dirname + '/public'));
 // routes
 // app.use(index.routes(), index.allowedMethods());
 app.use(members.routes(), members.allowedMethods());
-// app.use(clubs.routes(), clubs.allowedMethods());
+app.use(writes.routes(), writes.allowedMethods());
 // app.use(discuss.routes(), discuss.allowedMethods());
 // app.use(memberlists.routes(), memberlists.allowedMethods());
 // app.use(meets.routes(), meets.allowedMethods());

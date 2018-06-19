@@ -6,25 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SignUp/Login</title>
-
-    <!--<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
-    <script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyCM58bxsk9EGrZtvwSRzgQaD1RxQN9SkGI",
-        authDomain: "cluster-70c25.firebaseapp.com",
-        databaseURL: "https://cluster-70c25.firebaseio.com",
-        projectId: "cluster-70c25",
-        storageBucket: "cluster-70c25.appspot.com",
-        messagingSenderId: "283036596412"
-    };
-    firebase.initializeApp(config);
-    </script>-->
-
-    <!-- <link rel="stylesheet" href="/Cluster-Frontend/style/footer.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script src="/Cluster-Frontend/app/index.js"></script> -->
 
 
 
@@ -84,11 +67,11 @@
             $.get("http://localhost:3000/members?account="+name+"&password="+password)
             .done(function(result) {
                 console.log(result);
+                sessionStorage.setItem("gia_user", result);
                 swal({
                     type: 'success',
                     title: '登入成功'
-                })
-                sessionStorage.setItem("gia_user", name);
+                });
                 window.location = 'index.html';
             })
             .fail(function() {

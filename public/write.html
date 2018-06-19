@@ -20,19 +20,24 @@
     <div id="navbar"></div>
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <h1 style="text-align:center; color:#FF5511; font-size:50px; font-family:fantasy;">登陸傳票</h1>
+            <h1 style="text-align:center; color:#FF5511; font-size:50px; font-family:fantasy;">記錄傳票</h1>
             <form class="form-horizontal" role="form">
                 <div class="form-group">
-                    <label class="col-sm-4 control-label">帳號</label>
+                    <label class="col-sm-4 control-label">科目名稱</label>
                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="formName" placeholder="請輸入帳號">
+                        <input type="text" class="form-control" id="formSubject" placeholder="請輸入科目名稱">
                     </div>
-sid,
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword" class="col-sm-4 control-label">密碼</label>
+                    <label for="inputPassword" class="col-sm-4 control-label">借</label>
                     <div class="col-sm-4">
-                        <input type="text" class="form-control" id="formText" placeholder="請輸入密碼">
+                        <input type="text" class="form-control" id="formCredit" placeholder="金額">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-sm-4 control-label">貸</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="formDebit" placeholder="金額">
                     </div>
                 </div>
                 <div class="form-group">
@@ -56,20 +61,48 @@ sid,
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
     <script>
+  
+        const _sid = ctx.request.headers.sid || ctx.request.query.sid
+        const _credit = ctx.request.headers.credit || ctx.request.query.credit || 0
+        const _debit = ctx.request.headers.debit || ctx.request.query.debit || 0
+        document.getElementById('sendMessage').onclick = function() {
 
-    document.getElementById('sendMessage').onclick = function() {
-        var name = document.getElementById('formName').value;
-        var text = document.getElementById('formText').value;
-        if(name === "test" && text === "test"){
-            sessionStorage.setItem("gia_user", name);
-            window.location = 'index.html';
-        }else{
-            swal({
-                type: 'error',
-                title: '帳號或密碼輸入錯誤'
-            })
+            let _result  = sessionStorage.getItem('gia_user');
+            // formSubjectformCreditformDebit
+            var name = document.getElementById('formName').value;
+            var text = document.getElementById('formText').value;
+            if(name === "test" && text === "test"){
+                sessionStorage.setItem("gia_user", name);
+                gia_user_cookie_key
+                window.location = 'index.html';
+            }else{
+                swal({
+                    type: 'error',
+                    title: '帳號或密碼輸入錯誤'
+                })
+            }
+
+            $.get("http://localhost:3000/members?account="+name+"&password="+password)
+                .done(function(result) {
+                    console.log(result);
+                    
+                    swal({
+                        type: 'success',
+                        title: '登入成功'
+                    })
+                    sessionStorage.setItem("gia_user", result);
+                    window.location = 'index.html';
+                })
+                .fail(function() {
+                    swal({
+                        type: 'error',
+                        title: '帳號或密碼輸入錯誤'
+                    })
+                })
         }
-    }
     </script>
 </body>
 </html>
+
+
+<!-- http://192.168.56.101:5000/createTransaction?COOKIE_KEY=B4533CFFDCF94EF235F1&S_ID=333&CREDIT=120&DEBIT=200&CONTENT= -->
