@@ -31,6 +31,7 @@ router.get('/',async function(ctx,next){
             },
             json: true 
         };
+        
 
         let result = await requestPN(options);
         ctx.status = 200;
