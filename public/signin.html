@@ -65,10 +65,10 @@
             window.location = 'index.html';
         }else{
             $.get("http://localhost:3000/members?account="+name+"&password="+password)
-            .done(function(result) {
-                console.dir(result);
-                sessionStorage.setItem("gia_user", result.data.COOKIE_KEY);
-                sessionStorage.setItem("gia_user_mb", result.data.MEMBERCODE);
+            .done(function(info) {
+                console.dir(info);
+                sessionStorage.setItem("gia_user", info.COOKIE_KEY);
+                sessionStorage.setItem("gia_user_mb", info.MEMBERCODE);
                 swal({
                     type: 'success',
                     title: '登入成功'

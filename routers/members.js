@@ -27,8 +27,9 @@ router.get('/',async function(ctx,next){
 
         let result = await requestPN(options);
         console.dir(result);
+        let info = JSON.parse(result.data);
         ctx.status = 200;
-        ctx.body = result;
+        ctx.body = info;
     } catch (e) {
         console.dir(e);
         ctx.status = 400;
