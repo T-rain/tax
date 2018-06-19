@@ -1,0 +1,262 @@
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script src="https://use.fontawesome.com/45944fe561.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    </head>
+
+<div class="col-xs-6">
+<h2 class="sub-header">資產</h2>
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead >
+        <tr>
+            <td colspan="2" class="col-md-1">
+                資產
+            </td>
+            <td colspan="2" rowspan="2" class="col-md-2">                                                                               
+                金額
+            </td>
+            <td colspan="2" rowspan="2"class="col-md-3" >
+                %
+            </td>
+        </tr>
+        <tr>
+            <Td class="col-md-4">                                                                                                                                                                                                                                                                                               
+                科目名稱
+            </Td>
+            <td class="col-md-5">
+                編號
+            </td>
+           
+        </tr>
+    </thead>
+    <tbody class="1_Records">
+       
+    </tbody>
+    <tfoot style="border:1px;" class="1_memorandum">
+           
+    </tfoot>
+</table>
+</div>
+</div>
+<div class="col-xs-6">
+    <h2 class="sub-header">負債及業主權益</h2>
+        <div class="table-responsive">
+        <table  class="table table-striped">
+        <thead >
+            <tr>
+                <td colspan="2" class="col-md-1">
+                    負債
+                </td>
+                <td colspan="2" rowspan="2" class="col-md-2">
+                    金額
+                </td>
+                <td colspan="2" rowspan="2" class="col-md-3">
+                    %
+                </td>
+            </tr>
+            <tr>
+                <Td class="col-md-4">
+                    科目名稱
+                </Td>
+                <td class="col-md-5">
+                    編號
+                </td>
+                
+            </tr>
+        </thead>
+   
+        <tbody class="2_Records">
+            
+        </tbody>
+        <tfoot style="border:1px;" class="2_memorandum">
+               
+        </tfoot>
+</table>
+    <h2 class="sub-header">業主權益</h2>  
+    <div class="table-responsive">
+        <table  class="table table-striped">
+        <thead >
+            <tr>
+                <td colspan="2" class="col-md-1">
+                    權益
+                </td>
+                <td colspan="2" rowspan="2" class="col-md-2">
+                    金額
+                </td>
+                <td colspan="2" rowspan="2" class="col-md-3">
+                    %
+                </td>
+            </tr>
+            <tr>
+                <Td class="col-md-4">
+                    科目名稱
+                </Td>
+                <td class="col-md-5">
+                    編號
+                </td>
+                
+            </tr>
+        </thead>
+   
+        <tbody class="3_Records">
+            
+        </tbody>
+        <tfoot style="border:1px;" class="3_memorandum">
+               
+        </tfoot>
+</table>
+</div>
+<div id="push"></div>
+</div>
+
+<div>
+       
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<Script>
+    var SUBJECT_NO_MAPPING=[];
+    var records ;
+    
+    $(document).ready(function(){
+        
+        $.ajax({
+            url: "./name_subjectNo.json",
+            dataType: "json",
+            success: function(data) {
+                settingDictionary(data);
+                console.log(SUBJECT_NO_MAPPING[1115])
+                //console.log(SUBJECT_NO_MAPPING[])
+                //SUBJECT_NO_MAPPING =data;
+            }
+        });
+        
+        var MEMBER_CODE = sessionStorage.getItem('gia_user_mb');
+        var now = new Date();
+        var YEAR = now.getFullYear();
+        var MONTH = now.getMonth()+1;
+        $.get("http://localhost:3000/reporter?membercode="+ MEMBER_CODE+"&year="+YEAR+"&month="+MONTH)
+                .done(function(result) {
+                    console.log(result);
+                    AddRecordToTable(result);
+                    /*
+                    swal({
+                        type: 'success',
+                        title: '寫入成功'
+                    })*/
+                })
+                .fail(function() {
+                    swal({
+                        type: 'error',
+                        title: '寫入失敗'
+                    })
+            })
+    });
+    function bubbleSort(arr,arrNumber){
+
+        for(i=0;i<arrNumber.length-1;i++){
+            for(j=0;j<arrNumber.length-i-1;j++){
+                if(arrNumber[j]>arrNumber[j+1]){
+                    c = arrNumber[j]
+                    arrNumber[j]=arrNumber[j+1];
+                    arrNumber[j+1] = c;
+
+                    c = arr[j]
+                    arr[j]=arr[j+1];
+                    arr[j+1] = c;
+                }
+            }
+
+        }
+        return [arr,arrNumber];
+    }
+    function AddRecordToTable(JSON_ARR){
+        arr1=[];
+        arr1Number=[];
+        arr2=[];
+        arr2Number=[];
+        arr3=[];
+        arr3Number=[];
+        console.log(JSON_ARR);
+        //JSON_ARR = JSON.parse(JSON_ARR);
+        //console.log(JSON_ARR[0]);
+        for(jindex =0;jindex<JSON_ARR.length;jindex++){
+            JSON_DATA = JSON_ARR[jindex];
+            console.log(JSON_DATA.S_ID);
+            //JSON_DATA = JSON.parse(JSON_DATA);
+
+            var tr = document.createElement('tr');
+
+            var td1 = document.createElement('td');
+            var td2 = document.createElement('td');
+            var td3 = document.createElement('td');
+            var td4 = document.createElement('td');
+
+            td3.colSpan="2";
+            td4.colSpan="2";
+            td1.innerHTML =  SUBJECT_NO_MAPPING[JSON_DATA.S_ID];
+            td2.innerHTML = JSON_DATA.S_ID;
+            td3.innerHTML = JSON_DATA.SUM;
+
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+            tr.appendChild(td4);
+            console.log('123')
+            leftSubject = JSON_DATA.S_ID.substring(0,1);
+            if(leftSubject=='1'){
+                arr1.push(tr);
+                arr1Number.push(parseInt (JSON_DATA.S_ID));
+            }
+            else if (leftSubject=='2'){
+                arr2.push(tr);
+                arr2Number.push(parseInt( JSON_DATA.S_ID));
+            }
+            else if (leftSubject=='3'){
+                arr3.push(tr);
+                arr3Number.push((parseInt (JSON_DATA.S_ID)));
+            }
+
+        }
+        console.log('12')
+        console.log(arr1Number);
+        arr = bubbleSort(arr1,arr1Number);
+        arr1 = arr[0];
+        arr1Number = arr[1];
+
+        arr = bubbleSort(arr2,arr2Number);
+        arr2 = arr[0];
+        arr2Number = arr[1];
+
+        arr = bubbleSort(arr3,arr3Number);
+        arr3 = arr[0];
+        arr3Number = arr[1];
+        
+        for(i=0;i<arr1.length;i++){
+            console.log(arr1[i])
+            $('.1_Records').append(arr1[i]);
+        }
+        for(i=0;i<arr2.length;i++){
+            $('.2_Records').append(arr2[i]);
+        }
+        for(i=0;i<arr3.length;i++){
+            $('.3_Records').append(arr3[i]);
+        }
+    }
+    
+
+        function settingDictionary(data){
+            data.forEach(element => {
+                
+                SUBJECT_NO_MAPPING[element.subjectNo] = element.name;
+            });
+            
+            
+        }
+</Script>

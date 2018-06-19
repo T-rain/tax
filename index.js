@@ -11,7 +11,7 @@ const cors = require('kcors');
 // const index = require('./routers/index');
 const members = require('./routers/members');
 const writes = require('./routers/writes');
-// const clubs = require('./routers/clubs');
+const reporter = require('./routers/reporter');
 // const discuss = require('./routers/discuss');
 // const memberlists = require('./routers/memberlists');
 // const meets = require('./routers/meets');
@@ -53,7 +53,7 @@ app.use(require('koa-static')(__dirname + '/public'));
 // app.use(index.routes(), index.allowedMethods());
 app.use(members.routes(), members.allowedMethods());
 app.use(writes.routes(), writes.allowedMethods());
-// app.use(discuss.routes(), discuss.allowedMethods());
+app.use(reporter.routes(), reporter.allowedMethods());
 // app.use(memberlists.routes(), memberlists.allowedMethods());
 // app.use(meets.routes(), meets.allowedMethods());
 
