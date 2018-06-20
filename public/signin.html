@@ -17,7 +17,8 @@
 
 </head>
 <body style="background-color:#d2d2c5">
-    <div id="navbar"></div>
+     
+      
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <h1 style="text-align:center; color:#FF5511; font-size:50px; font-family:fantasy;">會計資訊系統</h1>
@@ -64,7 +65,7 @@
             sessionStorage.setItem("gia_user", name);
             window.location = 'index.html';
         }else{
-            $.get("http://localhost:3000/members?account="+name+"&password="+password)
+            $.get("/members?account="+name+"&password="+password)
             .done(function(info) {
                 console.dir(info);
                 info = JSON.parse(info);

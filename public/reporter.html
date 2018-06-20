@@ -141,7 +141,7 @@
         var now = new Date();
         var YEAR = now.getFullYear();
         var MONTH = now.getMonth()+1;
-        $.get("http://localhost:3000/reporter?membercode="+ MEMBER_CODE+"&year="+YEAR+"&month="+MONTH)
+        $.get("./reporter?membercode="+ MEMBER_CODE+"&year="+YEAR+"&month="+MONTH)
                 .done(function(result) {
                     console.log(result);
                     AddRecordToTable(result);

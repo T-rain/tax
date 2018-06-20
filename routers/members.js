@@ -8,7 +8,7 @@ router.prefix('/members');
 router.get('/',async function(ctx,next){
     try {
         const _account = ctx.request.headers.account || ctx.request.query.account
-        const _password = ctx.request.headers.password || ctx.request.query.password
+        const _passwor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      d = ctx.request.headers.password || ctx.request.query.password
         console.log(_account);
         console.log(_password);
         // http://localhost:5000/Login?ACCOUNT=pepro107&PASSWORD=qazwsx5566
@@ -17,7 +17,7 @@ router.get('/',async function(ctx,next){
             qs: {
                 ACCOUNT: _account,
                 PASSWORD: _password
-            },
+            },                                                                                                                                                                                                                                                                                                                                              
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
                 'Content-Type': 'application/json'
