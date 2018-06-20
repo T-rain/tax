@@ -7,8 +7,8 @@ router.prefix('/members');
 
 router.get('/',async function(ctx,next){
     try {
-        const _account = ctx.request.headers.account || ctx.request.query.account
-        const _passwor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      d = ctx.request.headers.password || ctx.request.query.password
+        const _account = ctx.request.headers.account || ctx.request.query.account;
+        const _password = ctx.request.headers.password || ctx.request.query.password;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     d = ctx.request.headers.password || ctx.request.query.password
         console.log(_account);
         console.log(_password);
         // http://localhost:5000/Login?ACCOUNT=pepro107&PASSWORD=qazwsx5566
